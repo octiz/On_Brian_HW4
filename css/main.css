@@ -1,0 +1,18 @@
+body {
+  font-size: 10px;
+  color: white;
+}
+
+section { height: 300px; }
+
+  .first-section { background-color: pink;}
+  .second-section { background-color: red;}
+  .third-section { overflow: hidden;}
+  .forth-section { overflow: hidden;}
+
+@media screen and (min-width: 641px) and (max-width: 1140px) {
+  .first-section { background-color: blue; width: 25%; float: left; height: 1366px; }
+  .second-section { background-color: purple; width: 25%; float: left; height: 1366px;}
+  .third-section { background-color: brown; width: 25%; float: right; height: 1366px;}
+  .forth-section { background-color: grey; width: 25%; float: right; height: 1366px;}
+}
